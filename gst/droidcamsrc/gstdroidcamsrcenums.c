@@ -31,6 +31,7 @@ gst_droidcamsrc_camera_device_get_type (void)
   static GEnumValue gst_droidcamsrc_camera_devices[] = {
     {GST_DROIDCAMSRC_CAMERA_DEVICE_PRIMARY, "Primary camera", "primary"},
     {GST_DROIDCAMSRC_CAMERA_DEVICE_SECONDARY, "Secondary camera", "secondary"},
+    {GST_DROIDCAMSRC_CAMERA_DEVICE_EXT, "External camera", "external"},
     {0, NULL, NULL},
   };
 

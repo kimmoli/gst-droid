@@ -44,6 +44,7 @@ struct _Common
 typedef enum {
   PRIMARY = 0,
   SECONDARY = 1,
+  EXT = 2,
 } Device;
 
 typedef enum {
