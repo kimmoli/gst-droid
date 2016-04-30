@@ -31,6 +31,7 @@ G_BEGIN_DECLS
 typedef enum {
   GST_DROIDCAMSRC_CAMERA_DEVICE_PRIMARY = 0,
   GST_DROIDCAMSRC_CAMERA_DEVICE_SECONDARY = 1,
+  GST_DROIDCAMSRC_CAMERA_DEVICE_EXT = 2,
 } GstDroidCamSrcCameraDevice;
 
 GType gst_droidcamsrc_camera_device_get_type (void);
